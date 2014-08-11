@@ -34,6 +34,7 @@
       <sourceFolder url="file://$MODULE_DIR$/grails-app/taglib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test/unit" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/test/integration" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target/classes" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -48,12 +49,22 @@
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.eclipse.jdt.core.compiler/ecj/jars/ecj-3.7.2.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.tomcat.embed/tomcat-embed-logging-log4j/jars/tomcat-embed-logging-log4j-7.0.42.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.tomcat.embed/tomcat-embed-core/jars/tomcat-embed-core-7.0.42.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/bouncycastle/bcprov-jdk14/jars/bcprov-jdk14-136.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/bouncycastle/bcmail-jdk14/jars/bcmail-jdk14-136.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/com.lowagie/itext/jars/itext-2.1.0.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.ant/ant-launcher/jars/ant-launcher-1.7.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.ant/ant/jars/ant-1.7.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/commons-logging/commons-logging/jars/commons-logging-1.0.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/commons-cli/commons-cli/jars/commons-cli-1.0.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/avalon-framework/avalon-framework-impl/jars/avalon-framework-impl-4.2.0.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/net.sf.barcode4j/barcode4j/jars/barcode4j-2.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
         <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="module" module-name="grails-barcode-grailsPlugins" />
   </component>
 </module>
 
